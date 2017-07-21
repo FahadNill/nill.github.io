@@ -1,0 +1,258 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+.scroll-button {
+	margin-left: 46px;
+}
+.digdig {
+	margin-left: 57px;
+}
+
+.hahaha span {
+	margin-left: 358px;
+}
+
+.mixx .sp {
+	margin-left: 420px;
+}
+
+.mixx span {
+	margin-left: 347px;
+}
+.hirebtn {
+	margin-left: 444px;
+}
+.news .sp {
+	margin-left: 413px;
+}
+.imgcup .sp {
+	margin-left: 91px;
+}
+.imgcup span {
+	margin-left: 38px;
+}
+.imgcup .fafa {
+	margin-left: 103px;
+}
+.extra .shadow span {
+	left: calc(45% - 137px);
+}
+
+}
+
+/* Tablet layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.nav.menu-area li a {
+	padding: 0px 10px;
+}
+.digdig {
+	margin-left: 361px;
+}
+.scroll-button {
+	margin-left: 350px;
+}
+.author-img {
+	height: 592px;
+	width: 75%;
+	margin-left: 87px;
+}
+.social-media {
+	text-align: center;
+}
+.social-media .fa {
+	padding: 14px;
+	margin-top: 32px;
+	border: 1px solid;
+}
+a{
+	color: black
+}
+.social-media{
+	text-align: center
+}
+.fa.fa-suitcase {
+	font-size: 40px;
+}
+.ui {
+	margin-top: 63px;
+}
+.front-end {
+	margin-top: 55px;
+	display: block;
+}
+.line-height {
+	margin-top: 76px;
+}
+.hahaha span{
+	margin-left: 252px
+}
+.service {
+	padding: 70px 37px;
+}
+.services {
+	padding: 80px 0px;
+}
+.servicee {
+	padding: 90px 40px;
+}
+.text-center {
+	line-height: 35px;
+	margin-top: 59px;
+}
+.mixx .sp {
+	margin-left: 316px;
+}
+.itemx span{
+	margin-left: 239px;
+}
+.itemx .sp{
+	margin-left: 321px
+}
+.mixx span {
+	margin-left: 238px;
+}
+.hirebtn{
+	margin-left: 336px
+}
+.news .sp {
+	margin-left: 317px;
+}
+.news span {
+	margin-left: 235px;
+}
+.extra .shadow span {
+	left: calc(45% - 89px);
+}
+.shadow .fa{
+	margin-top: 11px;
+}
+.imgcup .sp {
+	margin-left: 56px;
+}
+.imgcup span{
+	margin-left: 6px
+}
+.imgcup .fafa {
+	margin-left: 26px;
+}
+.col-md-4.passwordd {
+	margin-top: 34px;
+}
+.footer-section i {
+	line-height: 31px;
+	margin-left: 11px;
+}
+.nav.navbar-nav.navbar-right.menu-area {
+	padding-top: 14px;
+}
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+
+
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+	.design h2 {
+		font-size: 31px;
+	}
+	.developer > h2 {
+		color: white;
+		font-size: 23px;
+	}
+	.scroll-button {
+	margin-left: 217px;
+}
+.digdig {
+	margin-top: 29px;
+	margin-left: 228px;
+}
+.row .author-img {
+	margin-top: 41px;
+}
+.author-title > h2 {
+	margin-top: -52px;
+	font-size: 25px
+}
+.social-media i {
+	padding: 9px 15px;
+	font-size: 17px;
+	color: black;
+	border: 1px solid black;
+}
+.social-media{
+	margin-left: 100px;
+	margin-top: 20px
+}
+.social-media i:hover {
+	background-color: #8a96b7;
+	color: white;
+	transition: all 0.5s;
+}
+.fa {
+	font-size: 44px;
+	color: #8C7453;
+}
+.clean-code {
+	padding-top: 0px;
+}
+.hahaha span {
+	margin-left: 114px;
+}
+.itemx .sp {
+	width: 260px;
+	margin-left: 95px;
+}
+.hirebtn {
+	margin-left: 193px;
+}
+.extra {
+	margin-left: 25px;
+}
+.fa {
+	margin-top: 13px;
+	font-size: 25px
+}
+.news span {
+	margin-left: 105px;
+}
+.news .sp {
+	margin-left: 180px;
+}
+.imgcup span {
+	margin-left: 120px;
+}
+.imgcup .sp {
+	margin-left: 176px;
+}
+.imgcup {
+	padding-bottom: 45px;
+}
+.extra .shadow span {
+	left: calc(45% - 244px);
+}
+.imgcup .fafa {
+	margin-left: 235px;
+	margin-top: -27px;
+}
+.information h2 {
+	margin-top: -21px;
+}
+.getintouch h2 {
+	padding-top: 35px;
+}
+.experience {
+	margin-top: -15px;
+}
+.skills {
+	margin-top: -2px;
+}
+.all-ok {
+	margin-top: -16px;
+}
+}
