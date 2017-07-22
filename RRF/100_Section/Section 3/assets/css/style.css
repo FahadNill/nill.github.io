@@ -1,0 +1,87 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+  padding: 50px 0
+}
+.single_service_box{position: relative;}
+.single_service_bg_1{background-image: url(../img/1.PNG)}
+.single_service_bg_2{background-image: url(../img/2.PNG)}
+.single_service_bg_3{background-image: url(../img/3.PNG)}
+
+.single_service_bg {
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.single_service_inner {
+    padding: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #F2F2F2;
+    border-top: 0px solid;
+    padding-bottom: 41px;
+}
+
+.single_service_inner
+ h3 {
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+.single_service_inner
+ p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.single_service_button {
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    width: 100%;
+    text-align: center;
+}
+
+a.single_box_button {
+    color: #9E9E9E;
+    display: inline-block;
+    border: 1px solid #F2F2F2;
+    padding: 8px 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    background: white;
+}
