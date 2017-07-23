@@ -1,0 +1,120 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    background: #F5F5F5
+}
+a:hover { text-decoration: none }
+
+.section_padding{padding: 60px 0}
+
+.header_title h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #1EC6FE;
+}
+
+.header-sep {
+    position: relative;
+    height: 2px;
+    width: 344px;
+    background-color: #1EC6FE;
+    margin: 0 auto 25px;
+}
+
+.header-sep:after {
+    position: absolute;
+    height: 4px;
+    width: 50px;
+    left: 50%;
+    bottom: -1px;
+    content: "";
+    background-color: #1EC6FE;
+    margin-left: -25px;
+}
+
+.header_title p {
+    font-size: 15px;
+    margin-bottom: 40px
+}
+.single_team_box img {
+    padding: 10px;
+    border-radius: 50%;
+    max-width: 200px;
+    margin: 0 auto 79px;
+    display: block;
+}
+
+.single_team_box {
+    background: white;
+}
+
+.team_desc i {
+    color: #04BEFF;
+}
+
+.team_desc {
+    padding: 0 26px;
+    text-align: center;
+    margin-top: -67px;
+}
+
+.author_name span {
+    display: block;
+}
+
+.author_name {
+    padding-bottom: 35px;
+}
+
+.author_name h4 {
+    text-transform: uppercase;
+    margin-top: 18px;
+    color: #04BEFF;
+    margin-bottom: 6px;
+}
+
+.team_carousel .owl-nav div {
+    height: 35px;
+    width: 35px;
+    background: #04BEFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 21px;
+    color: white;
+    left: -64px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -17.5px;
+}
+
+.team_carousel .owl-nav div.owl-next {
+    left: initial;
+    right: -70px;
+}
