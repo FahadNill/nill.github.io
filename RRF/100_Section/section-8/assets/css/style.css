@@ -1,0 +1,159 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section_padding{padding: 60px 0}
+
+.slide-bg-1{background: url(../img/fashion1.jpg);}
+.slide-bg-2{background: url(../img/fashion2.jpg);}
+.slide-bg-3{background: url(../img/fashion3.jpg);}
+.slide-bg-4{background: url(../img/fashion4.jpg);}
+.slide-bg-5{background: url(../img/fashion5.jpg);}
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.section-title h2 {
+    font-size: 22px;
+}
+
+.slide-bg {
+    position: relative;
+    height: 333px;
+    background-position: center top;
+    background-size: cover;
+    z-index: 2;
+    margin-bottom: 15px;
+}
+span.ticker {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    height: 30px;
+    width: 30px;
+    /* background: black; */
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.ticker-green {
+    background: #29B89D;
+}
+
+.slide-hover-content {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    width: 200px;
+    text-align: center;
+    border-left: 1px solid #EFEFEF;
+    margin-left: -100px;
+    transition: .4s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slide-hover-content a {
+    color: black;
+    background: white;
+    display: block;
+    float: left;
+    padding: 12px 25px;
+    border-right: 1px solid #EFEFEF;
+    border-top: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+    width: 33.3333%;
+}
+
+.single-bg:hover .single-hover-content a {
+    opacity: 1;
+    visibility: visible;
+    transition: .4s;
+    bottom: 30px;
+}
+
+.slide-hover-content a:hover {
+    background: black;
+    color: white;
+}
+
+.single-slide h4 {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+single-slide span {
+    text-align: center;
+}
+
+span.product-price {
+    font-weight: 700;
+    font-size: 113%;
+}
+
+.single-slide {
+    text-align: center;
+}
+
+.slide-hover-content {}
+
+.single-slide:hover .slide-hover-content {
+    opacity: 1;
+    visibility: visible;
+    bottom: 30px;
+}
+
+.product-carousel .owl-nav div {
+    width: 28px;
+    height: 28px;
+    background: #999999;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    left: -13px;
+    top: 50%;
+    margin-top: -43px;
+    border-radius: 50%;
+    line-height: 28px;
+}
+
+.product-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -15px;
+}
