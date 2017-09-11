@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i');
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Zilla Slab', serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+
+.bg-1{background-image: url(../img/bg-1.jpg);}
+
+.logo span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-area a {color: black;}
+
+.main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+.main-menu li a {
+    padding: 16px;
+    display: block;
+}
+
+a {}
+
+.logo {
+    margin: 10px;
+}
+
+.header-area a {
+    font-weight: 700;
+}
+
+.search-icon i {
+    margin: 19px 0px;
+}
+
+.single-slide {
+    background-color: #333;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.single-slide:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    opacity: .66;
+}
+
+.header-area.header-absolute-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    color: white;
+}
+
+.header-area.header-absolute-area a {
+    color: white;
+}
+
+.slide1-text {
+    color: white;
+    padding: 120px 0;
+}
+
+.slide1-text h2 span {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.slide1-text h2 {
+    font-size: 53px;
+}
+
+a.img-video {
+    display: block;
+    position: relative;
+    margin: 30px;
+}
+
+.video-play-icon {
+    position: absolute;
+    height: 44px;
+    width: 44px;
+    line-height: 41px;
+    border-radius: 50%;
+    background: #077A7E;
+    left: 50%;
+    top: 50%;
+    margin-top: -22px;
+    margin-left: -22px;
+}
+
+a.boxed-button {
+    padding: 12px 35px;
+    background: #077A7E;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+}
