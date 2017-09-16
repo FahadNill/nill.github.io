@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i');
 
 .alignleft {
     float: left;
@@ -25,13 +25,15 @@ h5,
 h6 {
     margin: 0 0 15px;
     font-weight: 700;
+    font-family: 'Zilla Slab', serif
+
 }
-body {
-    font-family: 'Zilla Slab', serif;
+p{
+    font-family: 'Noto Sans', sans-serif
 }
 a:hover { text-decoration: none }
 
-.section-padding{padding: 60px 0}
+.section-padding{padding: 100px 0}
 
 .bg-1{background-image: url(../img/bg-1.jpg);}
 
@@ -56,8 +58,6 @@ a:hover { text-decoration: none }
     padding: 16px;
     display: block;
 }
-
-a {}
 
 .logo {
     margin: 10px;
@@ -144,4 +144,86 @@ a.boxed-button {
     color: white;
     font-size: 16px;
     border-radius: 50px;
+}
+
+.owl-carousel .owl-item .slide1-text img {
+    display: inline-block;
+    width: auto;
+}
+
+.homepage-slides .owl-nav div {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    color: white;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: -20px;
+}
+
+.homepage-slides .owl-nav div.owl-next {
+    left: auto;
+    right: 100px;
+}
+.space-100px {
+    height: 100px;
+}
+
+.quote-title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.quote-title p {
+    font-size: 14px;
+    color: #8D8D8D;
+    margin-bottom: 30px;
+}
+
+.single-promo-box h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+body {
+    line-height: 1.8;
+}
+
+.single-promo-box p {
+    color: #8D8D8D;
+    font-size: 14px;
+}
+
+.title-gallery img {
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px #B5B3B2;
+}
+
+.title-gallery img:nth-child(2) {
+    position: absolute;
+    z-index: 2;
+    right: 53px;
+    top: 23px;
+}
+
+.title-gallery img:nth-child(3) {
+    position: absolute;
+    z-index: 3;
+    left: 45px;
+    bottom: -64px;
+}
+
+.title-gallery {
+    height: 600px;
+}
+.quote-icon i {
+    font-size: 30px;
+    color: #77DBDB;
+    margin-bottom: 30px;
+}
+.single-promo-box {
+    text-align: center;
 }
