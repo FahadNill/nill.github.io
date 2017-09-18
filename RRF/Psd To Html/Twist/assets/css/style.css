@@ -227,3 +227,80 @@ body {
 .single-promo-box {
     text-align: center;
 }
+
+a.single-service {
+    position: relative;
+    display: block;
+    padding-left: 80px;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+    color: black;
+}
+
+.service-icon {
+    position: absolute;
+    font-size: 30px;
+    color: #077B7F;
+    left: 0;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 80px;
+}
+
+.service-icon-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.service-icon-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.service-icon:hover {
+}
+
+a.single-service:hover {
+    background: #077B7F;
+    color: white;
+}
+
+a.single-service:hover .service-icon {
+    color: white;
+}
+
+a.single-service:hover:after {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    height: 100%;
+    width: 5000%;
+    content: "";
+    background: #077B7F;
+}
+
+.service-bg {
+    position: relative;
+    overflow: hidden;
+}
+
+.single-service p {
+    color: #606060;
+}
+
+a.single-service:hover p {
+    color: white;
+}
+
+.service-bg:before {
+    background-image: url(../img/Service-bg.jpg);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 51.05%;
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+}
