@@ -36,6 +36,7 @@ a:hover { text-decoration: none }
 .section-padding{padding: 100px 0}
 
 .bg-1{background-image: url(../img/bg-1.jpg);}
+.say-hello-bg{background-image: url(../img/say-hello.jpg);}
 
 .logo span {
     font-size: 20px;
@@ -232,8 +233,8 @@ a.single-service {
     position: relative;
     display: block;
     padding-left: 80px;
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     color: black;
 }
 
@@ -303,4 +304,90 @@ a.single-service:hover p {
     content: "";
     position: absolute;
     background-repeat: no-repeat;
+}
+
+span.web-circle {
+    font-size: 48px;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    line-height: 50px;
+    margin-top: -25px;
+    text-align: center;
+    width: 100%;
+}
+span.graphic-circle {
+    font-size: 48px;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    line-height: 50px;
+    margin-top: -25px;
+    text-align: center;
+    width: 100%;
+}
+span.marketing-circle {
+    font-size: 48px;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    line-height: 50px;
+    margin-top: -25px;
+    text-align: center;
+    width: 100%;
+}
+
+.single-progress-bar {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.single-progress-bar h3 {
+    margin-top: 55px;
+}
+.circle{
+    position: relative;
+}
+.circle1{
+    position: relative;
+}
+.circle2{
+    position: relative;
+}
+
+.say-hello-text {
+    color: white;
+    margin: 100px 0;
+}
+
+a.box-button {
+    color: white;
+    background: #088E93;
+    padding: 18px 34px;
+    border-radius: 50px;
+}
+
+.buttonbox {
+    margin: 140px 0;
+}
+.say-hello-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    content: "";
+    z-index: -1;
+    opacity: .71;
+}
+.say-hello-bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2
 }
