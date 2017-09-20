@@ -509,3 +509,6 @@ a.box-button {
     display: inline-block;
     width: auto;
 }
+.single-project-file-hover a {
+    color: white;
+}
