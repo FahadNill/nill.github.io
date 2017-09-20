@@ -7,6 +7,14 @@ jQuery(document).ready(function($){
 		navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
 		autoplay: true
 	});
+	$(".team-carousel").owlCarousel({
+		items: 3,
+		loop: true,
+		nav: false,
+		dots: true,
+		autoplay: true,
+		margin: 30
+	});
 
 	$(".circle").circleProgress({
 		value: 0.9,
