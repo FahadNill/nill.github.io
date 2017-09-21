@@ -1,0 +1,144 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+
+.single-pricing-box {
+    text-align: center;
+    padding: 30px;
+    background: #f1f1f1;
+    border-top: 5px solid #219771;
+    transition: .4s
+}
+
+.single-pricing-box h1 {
+    font-size: 24px;
+}
+
+.border-style h2 span {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.border-style {
+    color: white;
+    background: #219771;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    margin: 30px auto;
+    padding-top: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.border-style h2 {
+    margin-top: 20px;
+}
+
+.border-style:after {
+    position: absolute;
+    left: -5.5%;
+    top: -5.5%;
+    height: 111%;
+    width: 111%;
+    content: "";
+    border: 3px solid #219771;
+    border-radius: 50%;
+}
+
+.pricing-serial {
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+.pricing-serial p span {
+    font-weight: 700;
+}
+
+.pricing-serial p {
+    color: #4F4F4F;
+}
+
+a.boxed-button {
+    display: inline-block;
+    border: 3px solid #219771;
+    padding: 15px 46px;
+    border-radius: 40px;
+    color: #219771;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+.color .border-style {
+    background: #C2482E;
+}
+
+.color .border-style:after {
+    border-color: #C2482E;
+}
+
+.color .boxed-button {
+    background: #C2482E;
+    color: white;
+    border-color: #C2482E;
+}
+
+.color2 .border-style {
+    background: #885BBD;
+}
+
+.color2 .border-style:after {
+    border-color: #885BBD;
+}
+
+.color2 .boxed-button {
+    border-color: #885BBD;
+    color: #885BBD;
+}
+
+.single-pricing-box:hover {
+    transform: scale(1.07);
+}
+
+.single-pricing-box.color2 {
+    border-top-color: #885BBD;
+}
+
+.single-pricing-box.color {
+    border-top-color: #C2482E;
+}
