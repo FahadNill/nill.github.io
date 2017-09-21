@@ -1,0 +1,95 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+.container{
+    width: 1340px;
+    margin-top: 50px
+}
+
+.text-area {
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.text-area h1 {
+    position: relative;
+    z-index: 2;
+}
+
+.text-area h1:before {
+    position: absolute;
+    left: -34px;
+    top: 0;
+    width: 6px;
+    height: 100%;
+    content: "";
+    background: #C28E00;
+}
+
+.icon-sec {
+    font-size: 15px;
+    margin-bottom: 42px;
+}
+
+.icon {
+    font-size: 45px;
+}
+
+.icon a {
+    color: #C28E00;
+}
+
+.icon-sec h2 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.about-us {
+    border: 10px solid #C28E00;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.about-us p {
+    font-size: 16px;
+}
+
+.about-us img {
+    width: 750px;
+    height: auto;
+    max-width: 145%;
+    margin-top: -135px;
+    margin-bottom: 70px;
+}
