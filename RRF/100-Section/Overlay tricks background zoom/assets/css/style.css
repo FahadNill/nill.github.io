@@ -1,0 +1,105 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+
+.section-bg{background-image: url(../img/Capture.jpg);}
+.zoom-bg1{background-image: url(../img/cover.jpg);}
+.zoom-bg2{background-image: url(../img/client-bg.jpg);}
+.zoom-bg3{background-image: url(../img/cup.jpg);}
+.zoom-bg4{background-image: url(../img/7.jpg);}
+
+.overlay {
+    position: relative;
+    z-index: 2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #B88502;
+    z-index: -1;
+    opacity: .8;
+}
+
+a {
+    display: block;
+}
+
+.zoom-overlay {
+    position: relative;
+    z-index: 2;
+    height: 210px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-size: 219%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s;
+    display: table;
+    width: 100%;
+}
+
+.zoom-overlay:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #003C5C;
+    z-index: -1;
+    opacity: .6;
+}
+
+.zoom-text h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 27px;
+    text-align: center;
+}
+
+.zoom-overlay:hover {
+    background-size: 140%;
+}
+
+.zoom-text {
+    display: table-cell;
+    vertical-align: middle;
+}
