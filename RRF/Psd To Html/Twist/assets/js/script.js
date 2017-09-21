@@ -15,6 +15,22 @@ jQuery(document).ready(function($){
 		autoplay: true,
 		margin: 30
 	});
+	$(".team-members-list").owlCarousel({
+		items: 3,
+		loop: true,
+		nav: false,
+		dots: true,
+		autoplay: true,
+		margin: 30
+	});
+	$(".brand-list").owlCarousel({
+		items: 5,
+		loop: true,
+		nav: false,
+		dots: false,
+		autoplay: true,
+		margin: 30
+	});
 
 	$(".circle").circleProgress({
 		value: 0.9,
