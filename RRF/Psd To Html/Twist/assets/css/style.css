@@ -44,6 +44,10 @@ a:hover { text-decoration: none }
 .testimonial-bg{background-image: url(../img/testimonial-bg.jpg);}
 .hero-area-bg{background-image: url(../img/hero-area-bg.jpg);}
 .cta-bg{background-image: url(../img/home2-cta.jpg);}
+.about-us-bg{background-image: url(../img/about-page.jpg);}
+.about-page-feature-bg{background-image: url(../img/about-page-feature.jpg);}
+
+
 
 .logo span {
     font-size: 20px;
@@ -873,4 +877,92 @@ input[type="button"] {
     position: relative;
     z-index: 2;
     padding: 130px 0;
+}
+
+.about-us-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    padding: 160px 0;
+}
+
+.about-us-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: .7;
+}
+
+.about-text {}
+
+.about-page-text h1 {
+    /* display: block; */
+    /* font-size: 36px; */
+}
+
+.about-us-page-text h1 {
+    /* display: block; */
+    font-size: 36px;
+    color: white;
+}
+
+.about-us-page-text a {
+    color: white;
+    margin-top: 31px;
+}
+
+.about-us-page-text{
+    color: white
+}
+
+.about-us-page-text a i.fa {
+    margin: 0 16px;
+}
+
+.about-page-text {
+    margin: 40px 0;
+}
+
+.about-page-feature-bg{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2
+}
+
+.about-page-feature-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: .7;
+}
+
+.feature-text-about {
+    color: white;
+}
+
+.about-feature-icon {
+    font-size: 41px;
+    margin-bottom: 18px;
+}
+
+.about-page-feature-theme {
+    margin-bottom: 80px;
+}
+.footer-2017 p {
+    margin-bottom: -54px;
+    padding: 0;
+    text-align: center;
 }
