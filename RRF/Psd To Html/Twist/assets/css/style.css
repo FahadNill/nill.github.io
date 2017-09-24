@@ -33,7 +33,7 @@ p{
 }
 a:hover { text-decoration: none }
 
-.section-padding{padding: 100px 0}
+.section-padding{padding: 100px 0;}
 
 .bg-1{background-image: url(../img/bg-1.jpg);}
 .say-hello-bg{background-image: url(../img/say-hello.jpg);}
@@ -377,7 +377,7 @@ span.marketing-circle {
 a.box-button {
     color: white;
     background: #088E93;
-    padding: 18px 34px;
+    padding: 14px 34px;
     border-radius: 50px;
 }
 
@@ -745,8 +745,10 @@ input[type="button"] {
     margin: 44px 0;
 }
 
-.section-padding.service-sec2 {
-    padding-top: 0;
+.service-sec2 {
+    /* padding-top: 32px; */
+    /* margin-bottom: 43px; */
+    /* display: block; */
 }
 
 .service-heading-text h1 {
@@ -965,4 +967,61 @@ input[type="button"] {
     margin-bottom: -54px;
     padding: 0;
     text-align: center;
+}
+.cta-bg.home2-cta {
+    margin-top: 100px;
+}
+.top0 {
+    padding-top: 0;
+}
+
+.widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widget ul li a {
+    color: black;
+    padding: 23px;
+    display: block;
+    background: #FBFBFB;
+    margin-bottom: 10px;
+    padding-left: 43px;
+    font-weight: 700;
+}
+
+.widget ul li a:hover {
+    background: #0BBBC1;
+    color: white;
+}
+
+.brochure {
+    background: #FBFBFB;
+    padding: 26px;
+}
+
+.brochure p {
+    color: #8D8D8D;
+}
+.section-padding.service-sec2 {
+    padding-top: 80px;
+}
+.brochure .boxed-button {
+    border-radius: 3px;
+    width: 100%;
+    display: inline-block;
+    background: #0BBBC1;
+    padding: 8px 0;
+    text-align: center;
+    margin-top: 25px;
+}
+.widget {
+    margin-bottom: 60px;
+}
+
+.service-details h3 {margin-top: 56px;}
+
+.section-padding.padd0 {
+    padding-bottom: 0;
 }
