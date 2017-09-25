@@ -17,6 +17,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+.space-30{
+    height: 30px
+}
+.space-70{
+    height: 70px
+}
 h1,
 h2,
 h3,
@@ -1060,6 +1066,24 @@ input[type="button"] {
     text-transform: uppercase;
     cursor: pointer
 }
+.section-padding.team-full-list p {
+    margin: 24px 0 0 0;
+}
 .portfolio-menu ul li.active{
     color: red
+}
+.section-padding.team-full-list {
+    padding-bottom: 0;
+}
+
+.section-padding.team-full-list .single-team {
+    box-shadow: 0 0 4px #ddd;
+    border: 1.5px solid #f1f1f1;
+}
+
+.section-padding.team-full-list .single-team:hover {
+    border: 1.5px solid #37888B;
+}
+.section-padding.portfolio-boxshadow .single-team-members-list {
+    box-shadow: 0 0 4px #ddd;
 }
