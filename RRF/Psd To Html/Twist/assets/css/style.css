@@ -41,6 +41,10 @@ a:hover { text-decoration: none }
 .project-bg-2{background-image: url(../img/project-2.jpg);}
 .project-bg-3{background-image: url(../img/project-3.jpg);}
 .project-bg-4{background-image: url(../img/project-4.jpg);}
+.project-bg-5{background-image: url(../img/employee-1.jpg);}
+.project-bg-6{background-image: url(../img/employee-2.jpg);}
+.project-bg-7{background-image: url(../img/employee-3.jpg);}
+.project-bg-8{background-image: url(../img/employee-1.jpg);}
 .testimonial-bg{background-image: url(../img/testimonial-bg.jpg);}
 .hero-area-bg{background-image: url(../img/hero-area-bg.jpg);}
 .cta-bg{background-image: url(../img/home2-cta.jpg);}
@@ -1024,4 +1028,38 @@ input[type="button"] {
 
 .section-padding.padd0 {
     padding-bottom: 0;
+}
+
+// ** Portfolio **//
+.portfolio-menu ul li.active
+ a {
+    color: blue;
+}
+.portfolio-menu {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.portfolio-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.portfolio-menu ul li {
+    display: inline-block; 
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.portfolio-menu{
+    display: block;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer
+}
+.portfolio-menu ul li.active{
+    color: red
 }

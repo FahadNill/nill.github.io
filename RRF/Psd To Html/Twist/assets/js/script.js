@@ -56,4 +56,30 @@ jQuery(document).ready(function($){
 	}).on('circle-animation-progress', function(event, progress) {
     $(this).find('.marketing-circle').html(Math.round(84 * progress) + '<i>%</i>');
   });
+
+	$(".portfolio-menu li").on('click', function(){
+		$(".portfolio-menu li").removeClass("active");
+		$(this).addClass("active");
+
+		var filterValue = $(this).attr("data-filter");
+
+		$(".portfolio-isotope").isotope({
+		filter: filterValue,
+		layoutMode: 'masonry',
+  		masonry: {
+  			columnWidth: '.col-md-3',
+  		}
+	})
+	})
+
+	
+
+
+	$(".portfolio-isotope").isotope({
+  		layoutMode: 'masonry',
+  		masonry: {
+  			columnWidth: '.col-md-3',
+  		}
+	})
+
 });	
