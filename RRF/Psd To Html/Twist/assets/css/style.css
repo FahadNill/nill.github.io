@@ -23,6 +23,63 @@ img {
 .space-70{
     height: 70px
 }
+.faqs-title h1 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.twist-faqs .panel-group .panel {
+    border-radius: 0px;
+}
+
+.twist-faqs .panel.panel-default {
+    display: block;
+    background: #FBFBFB;
+    border: none;;
+}
+
+.twist-faqs .panel-default>.panel-heading {
+    background: transparent;
+    padding: 0;
+}
+
+.twist-faqs .panel-default>.panel-heading .panel-title a:after {
+}
+
+.twist-faqs.panel-group .panel.panel-default .panel-collapse .panel-body {
+    border: none;
+    /* border-top-color: transparent; */
+}
+
+.twist.panel.panel-default {}
+
+.twist-faqs .panel-default {
+    box-shadow: 0 0 5px #ddd;
+}
+
+.twist-faqs .panel-title a {
+    display: block;
+    padding: 15px;
+    position: relative;
+}
+
+.twist-faqs .panel-title a:after {
+    content: "+";
+    position: absolute;
+    right: 16px;
+    background: #0BBBC1;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    top: 50%;
+    margin-top: -15px;
+    line-height: 27px;
+    color: white;
+    font-size: 21px;
+}
+
+.twist-faqs .panel-title a[aria-expanded="true"]:after {
+    content: "-";
+}
 h1,
 h2,
 h3,
