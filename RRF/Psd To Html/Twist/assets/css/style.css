@@ -1234,3 +1234,145 @@ ul.pagination li.active a {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
+.blog-details-main-img img {
+    margin-bottom: 80px;
+}
+
+.blog-details-main-img h3 {
+    margin-bottom: 45px;
+}
+
+h3.blog-details-title {
+    margin-bottom: 45px;
+}
+
+.blog-details-p p {
+    margin-bottom: 25px;
+}
+
+blockquote {
+    border: none;
+    background: #FBFBFB;
+    padding: 21px 101px;
+    font-size: 14px;
+    margin-left: 112px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p.blog-details-p3 {
+    margin-bottom: 80px;
+}
+
+.share-button .facebook-share, .share-button .twitter-share, .share-button .pinterest-share {
+    margin-bottom: 80px;
+    display: inline-block;
+    background: rebeccapurple;
+    padding: 9px 33px;
+    border-radius: 50px;
+    color: white;
+    margin-right: 10px;
+}
+
+.share-button a i {
+    margin-right: 10px;
+}
+
+.share-button .twitter-share {
+    padding: 9px 27px;
+    background: #28C8F0;
+}
+
+.share-button .pinterest-share {
+    padding: 9px 21px;
+    background: #D6061E;
+}
+
+.share-button .facebook-share {
+    background: #275BAA;
+}
+
+.author-sec img {
+    border-radius: 50%;
+}
+
+.author-sec {
+    padding-bottom: 100px;
+}
+
+.comment-sec h2 {
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.comment-sec h2:after {
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    height: 2px;
+    width: 50px;
+    content: "";
+    background: #0BBBC1;
+}
+
+.single-client-comment {
+    background: #FBFBFB;
+    margin-bottom: 50px;
+    padding: 35px;
+    position: relative;
+}
+
+.single-client-comment img {
+    border-radius: 50%;
+}
+
+.single-client-comment a.replay {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: black;
+    font-weight: 700;
+}
+
+.single-client-comment p:first-child {
+}
+
+.blog-details-form-sec h3 {
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.blog-details-form-sec h3:after {
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: #0BBBC1;
+}
+
+.blog-details-form-sec input[type="text"], .blog-details-form-sec input[type="email"] {
+    margin-bottom: 18px;
+    border: none;
+    border: 1px solid #BABABA;
+    border-radius: 3px;
+}
+
+.blog-details-form-sec textarea {
+    height: 160px;
+    border: 1px solid #E1E1E1;
+}
+
+.blog-details-form-sec input[type="submit"] {
+    width: 135px;
+    height: 50px;
+    background: #0BBBC1;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 18px;
+}
