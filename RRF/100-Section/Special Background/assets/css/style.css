@@ -1,0 +1,81 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 100px 0}
+
+.service-bg:before{
+    background-image: url(../img/7.jpg);
+}
+
+.service-bg {
+    border: 1px solid #f1f1f1;
+    position: relative;
+    padding-left: 54%;
+    padding-right: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: white;
+}
+
+.service-bg .read-more {
+    display: inline-block;
+    background: #A82424;
+    padding: 11px 27px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.service-bg:before {
+    position: absolute;
+    left: 0;
+    top: -15%;
+    height: 130%;
+    width: 50%;
+    content: "";
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+
+.service-bg {}
+
+.service-bg:after {
+    position: absolute;
+    left: 54%;
+    top: 31px;
+    height: 100%;
+    width: 49%;
+    content: "";
+    border: 5px solid blueviolet;
+    z-index: -1;
+}
