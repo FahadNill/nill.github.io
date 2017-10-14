@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
 		nav: true,
 		dots: true,
 		navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
-		autoplay: true
+		autoplay: false
 	});
 	$(".team-carousel").owlCarousel({
 		items: 3,

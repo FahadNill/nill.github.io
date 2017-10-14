@@ -1466,3 +1466,78 @@ p.blog-details-p3 {
     display: inline-block;
     border-radius: 5px;
 }
+
+.main-menu ul li {
+    position: relative;
+}
+
+.main-menu ul li ul {
+    position: absolute;
+    left: 0;
+    width: 163px;
+    background: #087C7F;
+    text-align: left;
+    content: "";
+    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.main-menu ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.main-menu ul li ul li {
+    display: block;
+    color: black;
+    transition: .5s;
+}
+
+.main-menu ul li ul li:hover {
+    background: #17203F;
+    color: black;
+    transition: .5s;
+}
+
+.main-menu ul li ul li a:hover {
+    margin-right: -29px;
+    transition: .5s;
+    padding-left: 37px;
+}
+
+.main-menu ul li ul li a {
+    display: block;
+    padding: 18px 22px;
+}
+
+.main-menu ul li ul li ul {
+    left: 163px;
+    top: 0;
+    background: #087C7F;
+    opacity: 1;
+}
+
+.main-menu ul li:hover ul li ul {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.main-menu ul li ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    background: #055053;
+    transition: .5s;
+}
+.main-menu ul li:hover ul li ul li ul{
+    opacity: 0;
+    visibility: hidden;
+}
+.main-menu ul li ul li ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
