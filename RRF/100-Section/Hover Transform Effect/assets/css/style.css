@@ -1,0 +1,114 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{background: #f1f1f1;margin: 50px 0;;;}
+
+.service-box-hover{background-image: url(../img/7.jpg);}
+
+.single-service-box {
+    padding: 50px;
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.single-service-box h1 {
+}
+
+.service-icon {
+    font-size: 125px;
+    opacity: .21;
+    margin-bottom: 18px;
+}
+
+.service-icon {}
+
+.single-service-box h1 {
+    margin-bottom: 28px;
+}
+
+.service-box-hover {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1);
+    transition: .2s;
+    z-index: 1;;;;
+}
+
+.single-service-box:hover
+ .single-service-box-hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.single-service-box:hover .service-box-hover {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.1);
+}
+
+.service-box-hover:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgb(0,110,46);
+    background: -moz-linear-gradient(top, rgba(0,110,46,1) 0%, rgba(0,110,46,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,110,46,1) 0%,rgba(0,110,46,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,110,46,1) 0%,rgba(0,110,46,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006e2e', endColorstr='#006e2e',GradientType=0 );
+    opacity: .8;
+    z-index: -1;
+}
+.service-box-inner{position: relative; z-index: 3}
+
+.single-service-box:hover {
+    color: white;
+}
+
+.single-service-box:hover .service-icon {
+    opacity: 1;
+}
+body,html{
+    overflow: hidden;
+}
