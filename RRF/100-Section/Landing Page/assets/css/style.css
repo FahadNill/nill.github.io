@@ -1,0 +1,141 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+
+.single-img-1{background-image: url(../img/landing-page1.jpg);}
+.single-img-2{background-image: url(../img/landing-page2.jpg);}
+.single-img-3{background-image: url(../img/landing-page3.png);}
+.single-img-4{background-image: url(../img/landing-page4.png);}
+.single-img-5{background-image: url(../img/landing-page5.jpg);}
+.single-img-6{background-image: url(../img/landing-page6.jpg);}
+.single-img-7{background-image: url(../img/landing-page7.jpg);}
+.single-img-8{background-image: url(../img/landing-page8.png);}
+.single-img-9{background-image: url(../img/landing-page9.jpg);}
+.single-img-10{background-image: url(../img/landing-page10.jpg);}
+.single-img-11{background-image: url(../img/landing-page11.jpg);}
+
+.single-item {
+    float: left;
+    height: 350px;
+    width: 25%;
+    background-size: 100%;
+    background-position: center;
+    transition: .5s;
+    display: table;
+}
+
+.logo h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: relative;
+    color: black;
+    margin: 0;
+}
+
+.logo h1 span {
+    position: absolute;
+    font-size: 9px;
+    top: 2px;
+    color: black;
+}
+
+.logo h1 a {
+    color: black;
+}
+
+.menu-collapse span {
+    height: 2px;
+    display: block;
+    background: black;
+}
+
+.menu-collapse span:nth-child(2) {
+    margin: 5px 0;
+    height: 3px;
+}
+
+.menu-collapse {
+    display: inline-block;
+    width: 30px;
+}
+
+.menu-collapse span:nth-child(1), .menu-collapse span:nth-child(3) {
+    height: 2.5px;
+}
+
+.menu-collapse:hover  span:nth-child(1), .menu-collapse:hover span:nth-child(3) {
+    margin: 0 5px;
+    transition: .5s;
+}
+
+.header-area {
+    padding: 40px 40px 0 40px;
+}
+
+.single-img-hover {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.single-img-hover h4 a {
+    color: black;
+    font-size: 24px;
+}
+
+.single-img-hover p {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.single-img-hover p a {
+    color: black;
+    opacity: .4;
+}
+
+.single-item:hover .single-img-hover {
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
+
+.single-item:hover {
+    background-size: 125%;
+    transition: .5s;
+}
