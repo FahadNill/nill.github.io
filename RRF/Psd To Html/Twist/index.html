@@ -10,10 +10,11 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/modal-video.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
 
 </head>
 <body>
@@ -23,46 +24,63 @@
             <div class="row">
                 <div class="col-md-2">
                     <div class="logo">
-                        <img src="assets/img/logo-icon.png" alt="">
-                        <span>twist</span>
+                        <a href="index.html"><img src="assets/img/logo-icon.png" alt="">
+                        <span>twist</span></a>
                     </div>
                 </div>
                 <div class="col-md-8 text-center">
                     <div class="main-menu">
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Services</a>
+                            <li><a href="index.html">Home</a>
                                 <ul>
-                                    <li><a href="">Level 1</a></li>
-                                    <li><a href="">Level 1</a></li>
-                                    <li><a href="">Another Level</a>
-                                        <ul>
-                                            <li><a href="">Level 2</a></li>
-                                            <li><a href="">Level 2</a></li>
-                                            <li><a href="">Another Level</a>
-                                                <ul>
-                                                    <li><a href="">Level 3</a></li>
-                                                    <li><a href="">Level 3</a></li>
-                                                    <li><a href="">Level 3</a></li>
-                                                    <li><a href="">Level 3</a></li>
-                                                    <li><a href="">Level 3</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="">Level 2</a></li>
-                                            <li><a href="">Level 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="">Level 1</a></li>
-                                    <li><a href="">Level 1</a></li>
+                                    <li><a href="index.html">HomePage 1</a></li>
+                                    <li><a href="index-2.html">HomePage 2</a></li>
                                 </ul>
                             </li>
-                            <li><a href="">Work</a></li>
+                            <li><a href="about-us.html">About</a>
+                                <ul>
+                                    <li><a href="team.html">Our Team</a></li>
+                                    <li><a href="faqs.html">Frequently Asked Questions</a></li>
+                                    <li><a href="testimonial.html">Testimonials</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="portfolio.html">Portfolio</a>
+                                <ul>
+                                    <li><a href="portfolio.html">Portfolio</a></li>
+                                    <li><a href="single-portfolio.html">Portfolio Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="services.html">Services</a>
+                                <ul>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="single-services.html">Services Details</a></li>
+                                </ul>
+                            </li>
                             <li class="mega-menu"><a href="">Page</a>
                                 <ul>
                                     <li class="row">
                                         <div class="col-md-3">
+                                            <h5>Main Pages</h5>
+                                            <ul>
+                                                <li><a href="index.html">Home</a>
+                                                <li><a href="about-us">About</a>
+                                                <li><a href="services.html">Services</a>
+                                                <li><a href="portfolio.html">Portfolio</a>
+                                                <li><a href="contact.html">Contact</a>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3">
                                             <h5>Other Pages</h5>
+                                            <ul>
+                                                <li><a href="team.html">Our Team</a></li>
+                                                <li><a href="faqs.html">Frequently Asked Questions</a></li>
+                                                <li><a href="testimonial.html">Testimonials</a></li>
+                                                <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="single-post.html">Blog Details</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <h5>Special Pages</h5>
                                             <ul>
                                                 <li><a href="">Another Pages</a>
                                                 <li><a href="">Another Pages</a>
@@ -72,27 +90,7 @@
                                             </ul>
                                         </div>
                                         <div class="col-md-3">
-                                            <h5>Other Pages</h5>
-                                            <ul>
-                                                <li><a href="">Another Pages</a>
-                                                <li><a href="">Another Pages</a>
-                                                <li><a href="">Another Pages</a>
-                                                <li><a href="">Another Pages</a>
-                                                <li><a href="">Another Pages</a>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <h5>Other Pages</h5>
-                                            <ul>
-                                                <li><a href="">Another Pages</a>
-                                                <li><a href="">Another Pages</a>
-                                                <li><a href="">Another Pages</a>
-                                                <li><a href="">Another Pages</a>
-                                                <li><a href="">Another Pages</a>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <h5>Other Pages</h5>
+                                            <h5>Bonus Pages</h5>
                                             <ul>
                                                 <li><a href="">Another Pages</a>
                                                 <li><a href="">Another Pages</a>
@@ -104,8 +102,13 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="blog.html">Blog</a>
+                                <ul>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="single-post.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -131,7 +134,7 @@
                                     <img src="assets/img/video-play-icon.png" alt="">
                                 </span>
                             </a>
-                            <a href="" class="boxed-button">Our Services <span><i class="fa fa-angle-right"></i></span></a>
+                            <a href="services.html" class="boxed-button">Our Services <span><i class="fa fa-angle-right"></i></span></a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +152,7 @@
                                     <img src="assets/img/video-play-icon.png" alt="">
                                 </span>
                             </a>
-                            <a href="" class="boxed-button">Our Services <span><i class="fa fa-angle-right"></i></span></a>
+                            <a href="services.html" class="boxed-button">Our Services <span><i class="fa fa-angle-right"></i></span></a>
                         </div>
                     </div>
                 </div>
@@ -182,7 +185,7 @@
                         <div class="col-md-6">
                             <div class="single-promo-box">
                                 <div class="quote-icon">
-                                    <i class="fa fa-bolt"></i>
+                                    <i class="fa fa-star"></i>
                                 </div>
                                 <h4>Awesome Support</h4>
                                 <p>Aaron Judge, a 25-year-old Yanksrookie, finally offered somerence that he is, in fact.</p>
@@ -208,7 +211,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-6">
-                    <a href="" class="single-service">
+                    <a href="single-services.html" class="single-service">
                         <div class="service-icon">
                             <div class="service-icon-table">
                                 <div class="service-icon-tablecell">
@@ -220,11 +223,11 @@
                         <h4>Digital Marketing</h4>
                         <p>From a business perspective, it was not hard to understand why West Ham Unite found it impossible to resist. Aaron Judge, a 25-year-old Yank rookie, finally offered.</p>
                     </a>
-                    <a href="" class="single-service">
+                    <a href="single-services.html" class="single-service">
                         <div class="service-icon">
                             <div class="service-icon-table">
                                 <div class="service-icon-tablecell">
-                                    <i class="fa fa-home"></i>
+                                    <i class="fa fa-star"></i>
                                 </div>
                             </div>
                         </div>
@@ -232,11 +235,11 @@
                         <h4>Web Development</h4>
                         <p>From a business perspective, it was not hard to understand why West Ham Unite found it impossible to resist. Aaron Judge, a 25-year-old Yank rookie, finally offered.</p>
                     </a>
-                    <a href="" class="single-service">
+                    <a href="single-services.html" class="single-service">
                         <div class="service-icon">
                             <div class="service-icon-table">
                                 <div class="service-icon-tablecell">
-                                    <i class="fa fa-home"></i>
+                                    <i class="fa fa-bolt"></i>
                                 </div>
                             </div>
                         </div>
@@ -244,11 +247,11 @@
                         <h4>Graphics Design</h4>
                         <p>From a business perspective, it was not hard to understand why West Ham Unite found it impossible to resist. Aaron Judge, a 25-year-old Yank rookie, finally offered.</p>
                     </a>
-                    <a href="" class="single-service">
+                    <a href="single-services.html" class="single-service">
                         <div class="service-icon">
                             <div class="service-icon-table">
                                 <div class="service-icon-tablecell">
-                                    <i class="fa fa-home"></i>
+                                    <i class="fa fa-search"></i>
                                 </div>
                             </div>
                         </div>
@@ -316,7 +319,7 @@
             </div>
             <div class="col-md-5 text-right">
                 <div class="buttonbox">
-                    <a href="" class="box-button">Say hello to us</a>
+                    <a href="contact.html" class="box-button">Say hello to us</a>
                 </div>
             </div>
         </div>
@@ -343,7 +346,7 @@
                     <div class="project-table">
                         <div class="project-tablecell">
                             <div class="project-icon">
-                                <a href=""><i class="fa fa-eye"></i></a>
+                                <a href="single-portfolio.html"><i class="fa fa-eye"></i></a>
                             </div>
                             <h4>Project Design</h4>
                         </div>
@@ -357,7 +360,7 @@
                     <div class="project-table">
                         <div class="project-tablecell">
                             <div class="project-icon">
-                                <a href=""><i class="fa fa-eye"></i></a>
+                                <a href="single-portfolio.html"><i class="fa fa-eye"></i></a>
                             </div>
                             <h4>Project Design</h4>
                         </div>
@@ -367,12 +370,14 @@
         </div>
 
         <div class="col-md-6">
+            <div class="row">
+        <div class="col-md-6">
             <div class="single-project-file project-bg-3">
                 <div class="single-project-file-hover">
                     <div class="project-table">
                         <div class="project-tablecell">
                             <div class="project-icon">
-                                <a href=""><i class="fa fa-eye"></i></a>
+                                <a href="single-portfolio.html"><i class="fa fa-eye"></i></a>
                             </div>
                             <h4>Project Design</h4>
                         </div>
@@ -386,13 +391,15 @@
                     <div class="project-table">
                         <div class="project-tablecell">
                             <div class="project-icon">
-                                <a href=""><i class="fa fa-eye"></i></a>
+                                <a href="single-portfolio.html"><i class="fa fa-eye"></i></a>
                             </div>
                             <h4>Project Design</h4>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </div>
         </div>
     </div>
 </div>
@@ -500,28 +507,28 @@
             <div class="col-md-12">
                 <div class="owl-carousel brand-list">
                     <div class="single-brand-item">
-                        <img src="assets/img/brand-1.jpg" alt="">
+                        <a href="https://www.envato.com"><img src="assets/img/brand-1.jpg" alt=""></a>
                     </div>
                     <div class="single-brand-item">
-                        <img src="assets/img/brand-1.jpg" alt="">
+                        <a href="https://www.envato.com"><img src="assets/img/brand-1.jpg" alt=""></a>
                     </div>
                     <div class="single-brand-item">
-                        <img src="assets/img/brand-1.jpg" alt="">
+                        <a href="https://www.envato.com"><img src="assets/img/brand-1.jpg" alt=""></a>
                     </div>
                     <div class="single-brand-item">
-                        <img src="assets/img/brand-1.jpg" alt="">
+                        <a href="https://www.envato.com"><img src="assets/img/brand-1.jpg" alt=""></a>
                     </div>
                     <div class="single-brand-item">
-                        <img src="assets/img/brand-1.jpg" alt="">
+                        <a href="https://www.envato.com"><img src="assets/img/brand-1.jpg" alt=""></a>
                     </div>
                     <div class="single-brand-item">
-                        <img src="assets/img/brand-1.jpg" alt="">
+                        <a href="https://www.envato.com"><img src="assets/img/brand-1.jpg" alt=""></a>
                     </div>
                     <div class="single-brand-item">
-                        <img src="assets/img/brand-1.jpg" alt="">
+                        <a href="https://www.envato.com"><img src="assets/img/brand-1.jpg" alt=""></a>
                     </div>
                     <div class="single-brand-item">
-                        <img src="assets/img/brand-1.jpg" alt="">
+                        <a href="https://www.envato.com"><img src="assets/img/brand-1.jpg" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -544,30 +551,30 @@
             <div class="col-md-2 col-md-offset-1">
                 <div class="footer-menu">
                     <ul>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Team</a></li>
-                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="about-us.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="faqs.html">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-2">
                 <div class="footer-menu">
                     <ul>
-                        <li><a href="">Testimonial</a></li>
-                        <li><a href="">Support</a></li>
-                        <li><a href="">Contact Us</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li><a href="testimonial.html">Testimonial</a></li>
+                        <li><a href="contact.html">Support</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-3">
                 <h3>Follow Us</h3>
                 <div class="social-icon">
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                    <a href=""><i class="fa fa-pinterest"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a>
                 </div>
             </div>
         </div>
@@ -578,6 +585,7 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
 <script src="assets/js/circle-progress-1.2.2.min.js"></script>
+<script src="assets/js/modal-video.min.js"></script>
 <script src="assets/js/script.js"></script>
 </body>
 </html>

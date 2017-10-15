@@ -776,7 +776,7 @@ input, button, textarea {
     margin-bottom: 0;
 }
 
-input[type="button"] {
+input[type="submit"] {
     background: #0BBBC1;
     border: none;
     color: white;
@@ -1445,7 +1445,7 @@ p.blog-details-p3 {
     height: 200px;
 }
 
-.contact-form input[type=button] {
+.contact-form input[type=submit] {
     display: inline-block;
     width: 21%;
 }
@@ -1569,5 +1569,7 @@ p.blog-details-p3 {
     background:none
 }
 .main-menu li.mega-menu ul h5{
+    font-size: 18px;
+    color: #077A7E;;;
     
 }
