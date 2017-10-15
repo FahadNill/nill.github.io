@@ -1475,7 +1475,7 @@ p.blog-details-p3 {
     position: absolute;
     left: 0;
     width: 163px;
-    background: #087C7F;
+    background-color: #055053;
     text-align: left;
     content: "";
     transform: scale(0);
@@ -1498,7 +1498,6 @@ p.blog-details-p3 {
 }
 
 .main-menu ul li ul li:hover {
-    background: #17203F;
     color: black;
     transition: .5s;
 }
@@ -1517,7 +1516,6 @@ p.blog-details-p3 {
 .main-menu ul li ul li ul {
     left: 163px;
     top: 0;
-    background: #087C7F;
     opacity: 1;
 }
 
@@ -1540,4 +1538,36 @@ p.blog-details-p3 {
 .main-menu ul li ul li ul li:hover ul{
     opacity: 1;
     visibility: visible;
+}
+.main-menu li.mega-menu {
+    position: static;
+}
+
+.main-menu li.mega-menu ul {
+    width: 100%;
+}
+
+.main-menu li.mega-menu:hover ul ul {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    top: 0;
+    position: relative;
+    width: 100%
+}
+
+.main-menu li.mega-menu >
+ ul {
+    width: 100%;
+    padding: 31px;
+}
+
+.main-menu li.mega-menu ul li a {
+    padding-left: 0;
+}
+.main-menu li.mega-menu ul li a:hover{
+    background:none
+}
+.main-menu li.mega-menu ul h5{
+    
 }
