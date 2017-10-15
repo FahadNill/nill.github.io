@@ -1,26 +1,5 @@
-(function ($) {
-	"use strict";
-
-    jQuery(document).ready(function($){
-
-
-        $(".embed-responsive iframe").addClass("embed-responsive-item");
-        $(".carousel-inner .item:first-child").addClass("active");
+jQuery(document).ready(function($){
+    $(".portfolio-list").masonry({
         
-        $('[data-toggle="tooltip"]').tooltip();
-
-
-
-        
-
-
-    });
-
-
-    jQuery(window).load(function(){
-
-        
-    });
-
-
-}(jQuery));	
+    })
+})	
