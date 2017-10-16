@@ -88,6 +88,7 @@ a:hover { text-decoration: none }
 .menu-collapse {
     display: inline-block;
     width: 30px;
+    cursor: pointer;;;
 }
 
 .menu-collapse span:nth-child(1), .menu-collapse span:nth-child(3) {
@@ -101,6 +102,11 @@ a:hover { text-decoration: none }
 
 .header-area {
     padding: 40px 40px 0 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3;
 }
 
 .single-img-hover {
@@ -229,4 +235,128 @@ a:hover { text-decoration: none }
 }
 .footer-area{
     z-index: 1
+}
+.offcanvas {
+    position: fixed;
+    right: -40%;
+    top: 0;
+    height: 100%;
+    width: 35%;
+    background: #fff;
+    content: "";
+    z-index: 4;
+    transition: .5s;;
+}
+
+.close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100px;
+    border-left: 1px solid #ddd;
+}
+
+.close-btn i.fa {
+    color: black;
+    top: 50%;
+    position: absolute;
+    line-height: 40px;
+    margin-top: -20px;
+    right: 37px;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.offcanvas-menu {
+    display: table;
+    height: 100%;
+}
+
+.offcanvas-menu-inner {
+    display: table-cell;
+    vertical-align: middle;
+    \: 201px;
+    padding-bottom: 148px;
+    padding-left: 20px;
+}
+
+.offcanvas-menu ul {
+    margin: 0;
+    list-style: none;
+}
+
+.offcanvas-menu u li {
+    display: block;
+}
+
+.offcanvas-menu ul li a {
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.offcanvas-text {
+    position: absolute;
+    bottom: 120px;
+    left: 67px;
+    max-width: 50%;
+    background: #EFEBFF;
+    padding: 3px 10px;
+}
+
+.offcanvas-text p {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+}
+
+.social-icon {
+    position: absolute;
+    left: 68px;
+    bottom: 50px;
+}
+
+.social-icon i.fa {
+    font-size: 22px;
+    margin-right: 9px;
+}
+
+.offcanvas-menu ul li.active a {
+    color: blue;
+}
+
+.offcanvas-menu ul li a:hover {
+    color: blue;
+}
+
+.offcanvas-menu ul li:focus, .offcanvas-menu ul li a:focus {
+    text-decoration: none;
+}
+
+.menu-collapse .offcanvas {
+    right: 0;
+}
+
+.offcanvas.active2{
+    right: 0
+
+}
+
+.offcanvas-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 65%;
+    content: "";
+    background: #000;
+    z-index: 5;
+    opacity: 0;
+    visibility: hidden;
+}
+.offcanvas-overlay.active{
+    opacity: 0;
+    visibility: visible;
 }
