@@ -1,6 +1,8 @@
 jQuery(document).ready(function($){
     $(".portfolio-list").masonry({
-        
+        itemSelector: '.single-item',
+          columnWidth: '.single-item',
+          percentPosition: true
     });
 
     $(".single-item").hover(function(){
