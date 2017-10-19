@@ -1,0 +1,159 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+
+.default-bg{background-image: url(../img/default.png); scroll no-repeat right bottom;}
+
+.pricing-menu li:before{font-family: FontAwesome; content: "\f046"}
+
+.head-title h1 span {
+    color: #166B9A;
+}
+
+.head-title h1 {
+    text-transform: uppercase;
+}
+.head-title p {
+    width: 754px;
+    margin: 25px auto 50px;
+}
+
+.single-pricing-content {
+    background: white;
+}
+
+.pricing-ticker h3 {
+    color: #285C6A;
+}
+
+.pricing-ticker {
+    background: #242837;
+}
+
+.pricing-ticker h3 span {
+    display: block;
+    color: #f1f1f1;
+    font-size: 13px;
+}
+
+.pricing-ticker h3 {
+    font-size: 25px;
+}
+
+.pricing-ticker {
+    display: inline-block;
+    border-radius: 50%;
+    height: 86px;
+    width: 89px;
+    text-align: center;
+    position: absolute;
+    top: -46px;
+    left: 55px;
+}
+
+.pricing-ticker h3 {
+    margin-top: 21px;
+}
+
+.single-pricing-content {
+    border: 1px 1px 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.pricing-content-text {
+    padding-top: 80px;
+    background: #0D7C8D;
+    color: white;
+    padding-l;
+    padding-left: 36px;
+    padding-bottom: 10px;
+}
+
+.pricing-content-text h1 {
+    text-transform: uppercase;
+    /* margin-bottom: 20px; */
+}
+
+.pricing-content-text h1 span {
+    display: block;
+    font-weight: normal;
+    opacity: .7;
+    margin-top: 14px;
+    font-size: 25px;
+}
+
+.pricing-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-menu ul li:nth-child(2n+2) {
+    background: #F5F6FA;
+}
+
+.pricing-menu ul li {
+    display: block;
+    padding: 10px;
+    padding-left: 26px;
+}
+
+a.order {
+    padding: 9px 21px;
+    display: inline-block;
+    border: 1px solid;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 28px;
+    margin-bottom: 17px;
+    margin-top: 29px;
+}
+
+.default-bg .col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.default-bg .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.border-left {
+    border-left: 1px solid #ddd;
+}
+
+.pricing-content-text.different-bg-color {
+    background: #0E7DB6;
+}
