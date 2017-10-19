@@ -1,0 +1,108 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+
+.booking-area{background-image: url(../img/7.jpg);padding: 100px 0;;}
+
+.text h1, .text h3 {
+    color: white;
+}
+
+.booking-area .sep1 {
+    margin-bottom: 25px;
+}
+
+.text h3 {
+    margin-bottom: 30px;
+}
+
+.text {
+    margin-bottom: 60px;
+}
+
+.check-in label {
+    color: white;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 12px;;;
+}
+
+.check-in {background: none;padding: 21px;display: block;position: relative;z-index: 1}
+
+.check-in:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background: black;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    z-index: -1;
+}
+
+.check-in select {
+    background: none;
+    border: none;
+    color: #D3B670;
+    font-size: 33px;
+}
+
+.check-in select option {background: none;}
+
+.check-in input[type=submit] {
+    background: none;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    display: block;
+    float: none;
+    text-transform: uppercase;
+    padding: 20px 21px;;;;;;;;;
+}
+
+.check-in .nice-select {
+    padding-left: 0;
+    float: none;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: white;
+}
+
+.check-in ul.list {
+    color: black;
+}
