@@ -1,0 +1,113 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+
+.full-area{background-image: url(../img/7.jpg);padding: 100px 0;background-repeat: no-repeat;background-size: cover;background-position: center;position: relative;z-index: 1;text-align: center;color: white}
+
+.timeline-text p {
+    width: 550px;
+    margin: 0 auto 120px;
+}
+
+.full-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    opacity: .7;
+    z-index: -1;
+}
+
+.single-timeline img.img1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.single-timeline img {
+    border: 1px solid #ddd;
+    padding: 0;
+    margin-top: -10px;
+    position: relative;
+    z-index: 1;
+}
+
+.single-timeline:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 114%;
+    width: 2px;
+    content: "";
+    background: white;
+    z-index: -1;
+}
+
+.single-timeline {
+    position: relative;
+    z-index: 1;
+    width: 150px;
+    margin: 0 auto 100px;
+}
+
+.single-timeline-text {
+    position: absolute;
+    left: -424px;
+    top: 50%;
+    width: 400px;
+    background: black;
+    padding: 30px;
+    height: 238px;
+    margin-top: -119px;
+    border-radius: 20px;/
+}
+
+.single-timeline:nth-child(2n+2) {
+    float: right;
+}
+
+.single-timeline:nth-child(2n+2) {
+    float: none;
+}
+
+.single-timeline:nth-child(2n+2) .single-timeline-text {
+    left: auto;
+    right: -424px;
+}
+
+.single-timeline:nth-child(4):after {
+    background: none;
+}
