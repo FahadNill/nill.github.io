@@ -1,0 +1,104 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+	border: none;
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+
+.bg-1{
+    background-image: url(../img/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    z-index: 1;;;;;;;
+}
+.blue-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    content: "";
+    background: #308ECE;
+    opacity: .9;;;
+}
+.single-item h4, .single-item p {display: inline-block;margin-bottom: 20px;;}
+
+.single-item i {
+    margin-right: 16px;
+    font-size: 25px;
+}
+
+.single-item p {
+    padding-left: 44px;
+    font-size: 12px;;
+}
+
+.single-item i.fa.fa-bolt {
+    margin-right: 27px;
+}
+
+.single-item {
+    margin-bottom: 35px;
+    padding-left: 100px;;
+}
+
+.black-overlay {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    background: #000;
+    opacity: .8;
+    bottom: 0;
+}
+.single-item-list h1 {margin-top: 14px;line-height: 1.4;position: relative;z-index: 1;margin-bottom: 43px;}
+
+.single-item-list h1:after {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 1px;
+    width: 15%;
+    background: #2C80C0;
+    content: "";
+}
+
+.single-item-list p {
+    margin-bottom: 20px;
+}
+
+.single-item-list {
+    padding-left: 44px;
+    width: 79%;
+}
