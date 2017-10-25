@@ -1,0 +1,106 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+	border: none;
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+
+.shadow{background-image: url(../img/7.jpg);}
+
+h1.weekend {
+    font-size: 30px;
+    color: white;;
+}
+
+.shadow {
+    padding-top: 50px;
+    padding-bottom: 180px;
+}
+
+p.dollar {
+    color: #D8085E;
+    font-size: 21px;
+}
+
+a.boxed-btn {
+    background: #D8085E;
+    display: inline-block;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 5px;
+    margin-top: 14px;
+}
+
+i.fa.fa-bolt {
+}
+
+.features i.fa {
+    font-size: 49px;
+    margin-top: 17px;
+}
+
+.features {
+    text-align: center;
+    box-shadow: 0px 2px 4px #ddd;
+    margin-top: -70px;
+    background: white;
+}
+
+h1.number {
+    font-size: 28px;
+    color: #D8085E;
+    margin-top: 22px;
+}
+
+p.customer {
+    padding-bottom: 20px;
+}
+
+.shadow:after{
+    position: absolute;
+    content: "";
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    left: 0;
+    top: 0;
+    height: 44%;
+    width: 100%;;;;; /* IE6-9 */
+}
+
+p.normal {
+    color: white;
+}
+.feature-content {
+    padding-bottom: 63px;
+}
