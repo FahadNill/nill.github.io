@@ -1,0 +1,82 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+	border: none;
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+
+.img-bg-1{background-image: url(../img/5.jpg);height: 300px;background-size: cover;background-position: center;background-repeat: no-repeat;margin-bottom: 81px;;;;;;;}
+.img-bg-2{background-image: url(../img/7.jpg);}
+
+
+
+.img-bg-2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.border-img {
+    position: relative;
+    z-index: 1;
+}
+
+.border-img:after {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid blue;
+    content: "";
+    z-index: -1;
+}
+
+.img-1-text {
+    width: 97%;
+    padding-top: 55px;
+    padding-left: 219px;;;;;
+}
+.img-2-text {
+    padding-left: 40px;
+    width: 55%;
+    padding-top: 18px;
+}
+
+.img-1-text a, .img-2-text
+ a {
+    background: #C7A05B;
+    color: white;
+    padding: 8px 13px;
+    margin-top: 8px;
+    display: inline-block;
+}
