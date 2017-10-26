@@ -11,6 +11,8 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/css/modal-video.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/slicknav.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
@@ -18,19 +20,25 @@
 
 </head>
 <body>
+   
+   <div class="preloader">
+       <div class="spinner"></div>
+   </div>
+   
     <!-- Main Menu -->
     <div class="header-area header-absolute-area">
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-sm-2">
                     <div class="logo">
                         <a href="index.html"><img src="assets/img/logo-icon.png" alt="">
                         <span>twist</span></a>
                     </div>
+                    <div class="slicknav-menu"></div>
                 </div>
-                <div class="col-md-8 text-center">
+                <div class="col-sm-8 text-center">
                     <div class="main-menu">
-                        <ul>
+                        <ul id="navigation">
                             <li><a href="index.html">Home</a>
                                 <ul>
                                     <li><a href="index.html">HomePage 1</a></li>
@@ -112,7 +120,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-2 text-right">
+                <div class="col-sm-2 text-right">
                     <span class="search-icon"><i class="fa fa-search"></i></span>
                 </div>
             </div>
@@ -166,39 +174,39 @@
     <div class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-sm-5">
                     <div class="space-100px"></div>
-                    <div class="quote-title">
-                        <h2 class="wow fadeInLeft">Happiness does not come from doing easy work</h2>
-                        <p class="wow fadeInLeft">The streak started in late October. Canelas 2010, an unheralded amateur soccer team, suddenly could not stop winning. It went 10 straight match without dropping a point, without so much as conceding a goal, a surge that brought the prospect of promotion out of its local league and into the comparative big time of the national.</p>
+                    <div class="quote-title wow fadeInLeft" data-wow-offset="80">
+                        <h2>Happiness does not come from doing easy work</h2>
+                        <p>The streak started in late October. Canelas 2010, an unheralded amateur soccer team, suddenly could not stop winning. It went 10 straight match without dropping a point, without so much as conceding a goal, a surge that brought the prospect of promotion out of its local league and into the comparative big time of the national.</p>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-sm-6 wow fadeInLeft" data-wow-offset="80">
                             <div class="single-promo-box">
                                 <div class="quote-icon">
-                                    <i class="fa fa-bolt wow fadeInLeft"></i>
+                                    <i class="fa fa-bolt"></i>
                                 </div>
-                                <h4 class="wow fadeInLeft">Pixel Perfect Design</h4>
-                                <p class="wow fadeInLeft">Aaron Judge, a 25-year-old Yanksrookie, finally offered somemneence that he is, in fact.</p>
+                                <h4>Pixel Perfect Design</h4>
+                                <p>Aaron Judge, a 25-year-old Yanksrookie, finally offered somemneence that he is, in fact.</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6 wow fadeInLeft" data-wow-offset="80">
                             <div class="single-promo-box">
                                 <div class="quote-icon">
-                                    <i class="fa fa-star wow fadeInLeft"></i>
+                                    <i class="fa fa-star"></i>
                                 </div>
-                                <h4 class="wow fadeInLeft">Awesome Support</h4>
-                                <p class="wow fadeInLeft">Aaron Judge, a 25-year-old Yanksrookie, finally offered somerence that he is, in fact.</p>
+                                <h4>Awesome Support</h4>
+                                <p>Aaron Judge, a 25-year-old Yanksrookie, finally offered somerence that he is, in fact.</p>
                             </div>
                         </div>
                     </div>
                     <div class="space-100px"></div>
                 </div>
-                <div class="col-md-6 col-md-offset-1 wow fadeInRight">
+                <div class="col-sm-6 col-sm-offset-1 wow fadeInRight" data-wow-offset="80">
                     <div class="title-gallery">
-                        <img class="wow fadeInRight" src="assets/img/employee-1.jpg" alt="">
-                        <img class="wow fadeInRight" src="assets/img/employee-2.jpg" alt="">
-                        <img class="wow fadeInRight" src="assets/img/employee-3.jpg" alt="">
+                        <img src="assets/img/employee-1.jpg" alt="">
+                        <img src="assets/img/employee-2.jpg" alt="">
+                        <img src="assets/img/employee-3.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -211,7 +219,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-6">
-                    <a href="single-services.html" class="single-service">
+                    <a href="single-services.html" class="single-service wow fadeInRight">
                         <div class="service-icon">
                             <div class="service-icon-table">
                                 <div class="service-icon-tablecell">
@@ -223,7 +231,7 @@
                         <h4>Digital Marketing</h4>
                         <p>From a business perspective, it was not hard to understand why West Ham Unite found it impossible to resist. Aaron Judge, a 25-year-old Yank rookie, finally offered.</p>
                     </a>
-                    <a href="single-services.html" class="single-service">
+                    <a href="single-services.html" class="single-service wow fadeInRight">
                         <div class="service-icon">
                             <div class="service-icon-table">
                                 <div class="service-icon-tablecell">
@@ -235,7 +243,7 @@
                         <h4>Web Development</h4>
                         <p>From a business perspective, it was not hard to understand why West Ham Unite found it impossible to resist. Aaron Judge, a 25-year-old Yank rookie, finally offered.</p>
                     </a>
-                    <a href="single-services.html" class="single-service">
+                    <a href="single-services.html" class="single-service wow fadeInRight">
                         <div class="service-icon">
                             <div class="service-icon-table">
                                 <div class="service-icon-tablecell">
@@ -247,7 +255,7 @@
                         <h4>Graphics Design</h4>
                         <p>From a business perspective, it was not hard to understand why West Ham Unite found it impossible to resist. Aaron Judge, a 25-year-old Yank rookie, finally offered.</p>
                     </a>
-                    <a href="single-services.html" class="single-service">
+                    <a href="single-services.html" class="single-service wow fadeInRight">
                         <div class="service-icon">
                             <div class="service-icon-table">
                                 <div class="service-icon-tablecell">
@@ -340,7 +348,7 @@
      </div>
 
      <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 wow fadeInLeft">
             <div class="single-project-file large project-bg-1">
                 <div class="single-project-file-hover">
                     <div class="project-table">
@@ -354,7 +362,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 wow fadeInRight">
             <div class="single-project-file project-bg-2">
                 <div class="single-project-file-hover">
                     <div class="project-table">
@@ -371,35 +379,35 @@
 
         <div class="col-md-6">
             <div class="row">
-        <div class="col-md-6">
-            <div class="single-project-file project-bg-3">
-                <div class="single-project-file-hover">
-                    <div class="project-table">
-                        <div class="project-tablecell">
-                            <div class="project-icon">
-                                <a href="single-portfolio.html"><i class="fa fa-eye"></i></a>
+                <div class="col-md-6 wow fadeInUp">
+                    <div class="single-project-file project-bg-3">
+                        <div class="single-project-file-hover">
+                            <div class="project-table">
+                                <div class="project-tablecell">
+                                    <div class="project-icon">
+                                        <a href="single-portfolio.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                    <h4>Project Design</h4>
+                                </div>
                             </div>
-                            <h4>Project Design</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 wow fadeInUp">
+                    <div class="single-project-file project-bg-4">
+                        <div class="single-project-file-hover">
+                            <div class="project-table">
+                                <div class="project-tablecell">
+                                    <div class="project-icon">
+                                        <a href="single-portfolio.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                    <h4>Project Design</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-6">
-            <div class="single-project-file project-bg-4">
-                <div class="single-project-file-hover">
-                    <div class="project-table">
-                        <div class="project-tablecell">
-                            <div class="project-icon">
-                                <a href="single-portfolio.html"><i class="fa fa-eye"></i></a>
-                            </div>
-                            <h4>Project Design</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
         </div>
     </div>
 </div>
@@ -581,11 +589,16 @@
     </div>
 </div>       <!-- Footer Ends -->
 
+<div class="totop">
+    <i class="fa fa-arrow-up"></i>
+</div>
 
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
 <script src="assets/js/circle-progress-1.2.2.min.js"></script>
 <script src="assets/js/modal-video.min.js"></script>
+<script src="assets/js/totop.min.js"></script>
+<script src="assets/js/jquery.slicknav.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/script.js"></script>
 </body>

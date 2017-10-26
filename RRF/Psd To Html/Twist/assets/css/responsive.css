@@ -5,15 +5,38 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
-    
+
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
  
+    .main-menu{display: none}
+    .slicknav-menu{display: block}
     
+    .slicknav_menu {}
+
+.slicknav-menu .slicknav_menu {
+    background: none;
+}
+
+.slicknav-menu .slicknav_nav {
+    background: #3A3A3A;
+    text-align: center;
+    width: 327px;
+    position: relative;
+    left: -5px;
+    top: -6px;
+}
+
+.slicknav-menu .slicknav_menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+}
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
 
+    
 }

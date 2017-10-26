@@ -1620,3 +1620,70 @@ Contact
     display: inline-block;
     border-radius: 5px;
 }
+
+.totop{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 70%;
+    background: #0CBCC1;
+    line-height: 50px;
+    bottom: 50px;
+    right: 50px;
+    color: white;
+    cursor: pointer;
+    z-index: 999999;
+    text-align: center;
+    display: none
+}
+
+/* Preloader default css */
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+/* Preloader */
+
+.preloader {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: white;
+    z-index: 999;
+}
+
+.preloader .spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.slicknav-menu{display: none}
