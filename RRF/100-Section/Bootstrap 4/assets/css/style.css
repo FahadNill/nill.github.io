@@ -36,3 +36,83 @@ body {
 a:hover { text-decoration: none }
 
 .section-padding{padding: 60px 0}
+
+.header-top {
+    background: #0B0B0B;
+    color: #F5F3F3;
+    font-size: 15px;
+    padding: 14px 0;;
+}
+
+.header-top i.fa {
+    color: #FC721E;
+}
+
+.header-top i.fa.fa-map-marker {
+    margin-right: 6px;
+}
+
+.header-top i.fa.fa-envelope, .header-top i.fa.fa-phone {
+    margin-right: 6px;
+}
+
+.header-top i.fa.fa-phone {
+    padding-left: 15px;
+}
+
+span.social-icons {
+    padding-left: 24px;
+}
+
+
+span.social-icons a i.fa {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 2px;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+}
+.social-icons a i.fa:hover {
+    background: #FC721E;
+    border-color: #FC721E;
+}
+
+a.logo h1 {
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+
+.header-area {
+    padding: 17px 0;
+}
+
+.header-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu li {
+    display: inline-block;
+}
+
+.header-menu li a {
+    display: block;
+    color: black;
+    font-weight: 900;
+    padding: 12px 15px;
+    border: 1px solid transparent;
+    font-size: 14px;;;
+}
+
+.header-menu li a:hover {
+    border-color: #FC721E;
+}
