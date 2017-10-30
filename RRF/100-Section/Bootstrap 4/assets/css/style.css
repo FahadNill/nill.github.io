@@ -37,6 +37,10 @@ a:hover { text-decoration: none; }
 
 .section-padding{padding: 60px 0}
 
+.single-service-bg-1{background-image: url(../img/single-service-bg-1.jpg);}
+.single-service-bg-2{background-image: url(../img/single-service-bg-2.jpg);}
+.single-service-bg-3{background-image: url(../img/single-service-bg-3.jpg);}
+
 .header-top {
     background: #0B0B0B;
     color: #F5F3F3;
@@ -195,4 +199,61 @@ a.bordered-btn {
 .sliders .owl-dots div.active {
     background: #FC721E;
     height: 33px;
+}
+
+.single-service-bg {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+
+.single-service {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    transition: .3s;
+}
+
+.single-service:hover {
+    box-shadow: 0px 9px 29px #ddd;
+}
+
+.single-service-title
+ h2 {
+    font-size: 20px;
+    width: 80%;
+    background: #FC721E;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.single-service-title {
+    width: 100%;
+    position: absolute;
+    top: 177px;
+}
+
+.single-service-content {
+    padding: 7px;
+    padding-top: 48px;
+    padding-bottom: 30px;
+    border: 1px solid #ddd;
+}
+
+.single-service-content a {
+    color: black;
+    font-weight: 900;
+}
+
+.single-service-content a i.fa {
+    font-weight: normal;
+    padding-left: 6px;
+}
+
+.single-service:hover
+ .single-service-content a {
+    color: #F9711E;
 }
