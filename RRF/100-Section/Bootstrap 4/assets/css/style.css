@@ -35,7 +35,7 @@ body {
 }
 a:hover { text-decoration: none; }
 
-.section-padding{padding: 60px 0}
+.section-padding{padding: 100px 0}
 
 .single-service-bg-1{background-image: url(../img/single-service-bg-1.jpg);}
 .single-service-bg-2{background-image: url(../img/single-service-bg-2.jpg);}
@@ -256,4 +256,54 @@ a.bordered-btn {
 .single-service:hover
  .single-service-content a {
     color: #F9711E;
+}
+.about-us {
+    background: #F4F4F4;
+}
+
+.about-us-title {
+    padding-bottom: 100px;
+}
+
+.services {
+    padding-bottom: 0;
+}
+
+.bordered-img {
+    position: relative;
+    z-index: 2;
+}
+
+.bordered-img:before {
+    position: absolute;
+    left: -4px;
+    top: 15%;
+    height: 70%;
+    width: 4px;
+    background: #FC721E;
+    content: "";
+}
+
+.bordered-img:after {
+    position: absolute;
+    right: -3px;
+    top: 15%;
+    height: 70%;
+    width: 4px;
+    background: #FC721E;
+    content: "";
+}
+.about-us-desc {
+    padding: 27px 0;
+}
+
+.about-us-desc h2 {
+    font-size: 20px;
+}
+
+.about-us-desc p {
+    line-height: 1.7;
+}
+.service-title {
+    padding-bottom: 100px;
 }

@@ -14,7 +14,7 @@
         	loop: true,
         	nav: false,
         	dots: true,
-        	autplay: true
+        	autoplay: true
         });
 
 
