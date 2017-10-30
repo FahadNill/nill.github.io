@@ -9,6 +9,14 @@
         
         $('[data-toggle="tooltip"]').tooltip();
 
+        $(".sliders").owlCarousel({
+        	items: 1,
+        	loop: true,
+        	nav: false,
+        	dots: true,
+        	autplay: true
+        });
+
 
 
         

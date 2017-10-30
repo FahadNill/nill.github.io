@@ -175,3 +175,24 @@ a.bordered-btn {
 .single-slide .d-table-cell{
     vertical-align: middle;
 }
+
+.sliders .owl-dots div {
+    height: 25px;
+    width: 2px;
+    background: white;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.sliders .owl-dots {
+    position: relative;
+    left: 0;
+    bottom: 80px;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.sliders .owl-dots div.active {
+    background: #FC721E;
+    height: 33px;
+}
