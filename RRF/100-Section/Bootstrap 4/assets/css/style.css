@@ -41,11 +41,16 @@ a:hover { text-decoration: none; }
 .single-service-bg-2{background-image: url(../img/single-service-bg-2.jpg);}
 .single-service-bg-3{background-image: url(../img/single-service-bg-3.jpg);}
 
+.project-bg-1{background-image: url(../img/project-1.jpg)};
+.project-bg-2{background-image: url(../img/project-2.jpg)};
+.project-bg-3{background-image: url(../img/project-3.jpg)};
+.project-bg-4{background-image: url(../img/project-4.jpg)};
+
 .header-top {
     background: #0B0B0B;
     color: #F5F3F3;
     font-size: 15px;
-    padding: 14px 0;;
+    padding: 14px 0;
 }
 
 .header-top i.fa {
@@ -306,4 +311,88 @@ a.bordered-btn {
 }
 .service-title {
     padding-bottom: 100px;
+}
+
+.single-project {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 292px;
+    margin-bottom: 28px;
+}
+
+.project-bg {
+    width: 270px;
+    background-size: cover;
+    background-color: #ddd;
+    background-position: center;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+a.inline-btn {
+    color: black;
+    font-weight: 700;
+}
+
+.inline-btn i.fa {
+    padding-left: 7px;
+}
+
+.project-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    transition: .3s
+}
+
+.single-project:hover
+ .project-bg:after {
+    opacity: .5;
+    visibility: visible;
+    transition: .3s
+
+}
+
+.single-project:hover
+ .project-content h3, .single-project:hover
+ .project-content .inline-btn {
+    color: #FC721E;
+    transition: .3s;
+}
+.project-content h3 {
+    font-size: 20px;
+}
+.cta {
+    background: #FC721E;
+    padding: 60px 0;
+}
+
+.cta-content h2 {
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 400
+}
+
+a.border-btn {
+    color: black;
+    background: white;
+    padding: 15px 26px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.about-us-title h1 {
+    text-transform: uppercase;
 }
