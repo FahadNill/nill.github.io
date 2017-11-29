@@ -467,3 +467,148 @@ a.border-btn {
 .padding-top-0{
     padding-top: 0
 }
+
+.single_item_wrap {
+    height: 120px;
+    width: 100%;
+}
+
+.single_item_wrap img {
+    max-height: 120px;
+}
+
+.single_item {
+    vertical-align: middle;
+}
+
+.owl-carousel .owl-item img, .owl-carousel .owl-item img {
+    max-height: 120px;
+}
+
+.logo_carousel_area {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 60px 0;
+}
+
+.partners-title h1 {
+    font-size: 30px;
+}
+
+.footer_1 h1, .footer_2 h1, .footer_3 h1, .footer_4 h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.footer_1 h1:after, .footer_2 h1:after, .footer_3 h1:after, .footer_4 h1:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 55px;
+    height: 2px;
+    background: #A64B14;
+}
+
+.footer_1 p, .footer_2 p, .footer_3 p, .footer_4 p {
+    font-size: 15px;
+    color: #333;
+    /* margin-bottom: 35px; */
+}
+
+a.footer_logo {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 8px 17px;
+    /* margin: 0px; */
+}
+
+.footer_top_area {
+    background: black;
+    padding: 100px 0;
+}
+
+.footer_1 p {
+    margin-bottom: 35px;
+}
+
+.social-icons {margin-top: 41px;}
+
+.social-icons a i {
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    transition: .4s;
+    margin-right: 5px;
+}
+
+.social-icons a i:hover {
+    background: #6D310D;
+}
+
+
+.navigation_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigation_menu ul li a {
+  display: block;
+  color: #333;
+}
+.navigation_menu ul li a i {
+  margin-right: 22px;
+}
+.footer_3 p span {
+  display: block;
+  margin-top: 2px;
+}
+.footer_4 p {
+  position: relative;
+  padding-left: 30px;
+}
+.footer_4 p i {
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+.email_form {
+  background: #333;
+  padding: 7px;
+  color: white;
+}
+input {
+  background: none;
+  border: none;
+  color: white;
+  width: 87%;
+}
+button {
+  float: right;
+  background: none;
+  border: none;
+  width: 12%;
+  cursor: pointer;
+}
+
+.footer_bottom p {
+    margin: 0;
+}
+.footer_bottom {
+    text-align: center;
+    color: #ddd;
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+}
+.footer_bottom_area {
+    background: black;
+}

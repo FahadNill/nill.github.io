@@ -10,11 +10,20 @@
         $('[data-toggle="tooltip"]').tooltip();
 
         $(".sliders").owlCarousel({
-        	items: 1,
+            items: 1,
+            loop: true,
+            nav: false,
+            dots: true,
+            autoplay: true
+        });
+
+        $(".logo_carousel").owlCarousel({
+        	items: 5,
         	loop: true,
         	nav: false,
-        	dots: true,
-        	autoplay: true
+        	dots: false,
+        	autoplay: false,
+            margin: 30
         });
 
 
