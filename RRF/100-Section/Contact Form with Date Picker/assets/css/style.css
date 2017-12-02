@@ -1,0 +1,114 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+	border: none;
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+
+.form_bg{background-image: url(../img/bg-1.jpg)}
+
+.section_padding {
+    position: relative;
+    z-index: 2;
+    padding: 50px 0;
+}
+
+.form_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 58%;
+    background-position: center;
+    background-size: cover;
+}
+
+.form_bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: green;
+    opacity: .7;
+}
+.contact_form input, .contact_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+.contact_form input[type=tel] {
+    padding-bottom: 12px;
+    padding-top: 13px;
+}
+
+.contact_form input[type=submit] {
+    color: green;
+    background: white;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.appointment_text {
+    padding-left: 45px;
+}
+
+.appointment_text h2 {
+    margin-bottom: 24px;
+}
+
+.appointment_text p {
+    margin-bottom: 24px;
+}
+
+.apppointment_menu ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.apppointment_menu ul
+ li i {
+    margin-right: 28px;
+    margin-bottom: 16px;
+    color: green;
+}
+
+a.boxed_btn {
+    background: green;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
