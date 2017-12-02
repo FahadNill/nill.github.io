@@ -1,0 +1,79 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+	border: none;
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{padding: 60px 0}
+
+.zigzag_bg_1{background-image: url(../img/bg-1.jpg)}
+.zigzag_bg_2{background-image: url(../img/bg-2.jpg)}
+
+.section_padding {
+    background-size: cover;
+    background-position: center top;
+    color: white;
+}
+
+a.boxed_btn {
+    color: white;
+    background: black;
+    padding: 10px 18px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 14px;
+}
+
+.zigzag_text_1 {
+    position: relative;
+    z-index: 2;
+    padding: 30px 0
+}
+
+.zigzag_text_1:after {
+    position: absolute;
+    left: -4890%;
+    top: 0;
+    height: 100%;
+    width: 5000%;
+    content: "";
+    background: green;
+    z-index: -1;
+    transform: skew(20deg);
+    opacity: .7
+}
+.section_padding.zigzag_bg_2 .zigzag_text_1:after {
+    left: auto;
+    right: -4880%;
+}
+
+.section_padding.zigzag_bg_2 {
+    overflow: hidden;
+}
