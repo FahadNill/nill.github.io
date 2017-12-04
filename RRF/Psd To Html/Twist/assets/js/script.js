@@ -136,7 +136,7 @@ jQuery(document).ready(function($){
 	});
 
 
-	$(".portfolio-isotope").isotope({
+	jQuery(".portfolio-isotope").isotope({
   		layoutMode: 'masonry',
   		masonry: {
   			columnWidth: '.col-md-3',
