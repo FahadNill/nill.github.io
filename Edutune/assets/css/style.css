@@ -45,7 +45,7 @@ a:hover{
     color: inherit;
 }
 
-.section-padding{padding: 60px 0}
+.section-padding{padding: 120px 0}
 
 .slider_bg_1{background-image: url(../img/slider_bg_1.jpg);}
 .slider_bg_2{background-image: url(../img/slider_bg_1.jpg);}
@@ -183,4 +183,126 @@ a:hover{
 }
 .header_area {
     margin-top: 25px;
+}
+
+body {
+    background: #F9FDFF;
+}
+
+.study_box {
+    background: white;
+    padding: 50px 25px 25px 25px;
+    position: relative;
+    z-index: 2;
+}
+
+.study_box h2, .event_box h2 {
+    font-size: 26px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.study_box:after,
+ .event_box:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 7px;
+    width: 100%;
+    content: "";
+    background: #10B6A7;
+    border-radius: 10px;
+}
+
+.single_study_box {
+    text-align: center;
+    background: #F9FDFF;
+    margin-bottom: 25px;
+    padding: 40px;
+}
+
+.single_study_box:nth-child(3), .single_study_box:nth-child(4) {/* margin: 0; */}
+
+.single_study_box
+ img {background: white;padding: 30px;border-radius: 50%;box-shadow: 0 0 12px #E2F3F6;margin-bottom: 25px;}
+
+.single_study_box
+ h3 {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.single_study_box
+ p {margin-bottom: 20px;}
+
+.discover_more {
+    color: #10B6A7;
+}
+
+.discover_more i {
+    padding-left: 7px;
+}
+
+.discover_more:hover {color: #10B6A7;}
+
+.event_box {
+    position: relative;
+    z-index: 2;
+    background: white;
+    padding: 50px 50px 50px 25px;
+}
+
+.event_box h2 {
+}
+
+.event_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.event_menu ul li
+ a span {
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.event_menu ul li {
+    border-top: 1px solid #ECFAFF;
+    padding: 25px 0;
+    margin-left: -26px;
+    margin-right: -51px;
+    padding-left: 26px;
+    padding-right: 51px;
+}
+
+.event_menu ul li:hover
+ a {
+    color: #10B6A7;
+}
+
+.col-lg-6:nth-child(2) .single_study_box {
+    background: #FAFAFF;
+}
+
+.col-lg-6:nth-child(3) .single_study_box {
+    background: #FAFFFC;
+}
+
+.col-lg-6:nth-child(4) .single_study_box {
+    background: #FFFAFF;
+}
+
+.more_events {
+    color: #10B6A7;
+}
+
+.more_events i {
+    padding-left: 7px;
+}
+
+.event_menu ul li:hover
+ a span {
+    color: black;
 }

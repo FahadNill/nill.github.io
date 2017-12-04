@@ -11,6 +11,10 @@
     		autoplay: false
     	});
 
+    	$(".slider_play_button").magnificPopup({
+    		type: 'video'
+    	});
+
 
 
         
