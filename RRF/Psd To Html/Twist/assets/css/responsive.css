@@ -1,42 +1,213 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  
+.title-gallery img {
+    max-width: 314px;
+}
+
+a.single-service {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+h1 {
+    font-size: 32px;
+}
     
 }
+
+
+/* Tablet & Mobile Layout: 991px. */
+@media only screen and (max-width: 991px) { 
+
+.main-menu {
+    display: none;
+}
+
+.slicknav-menu{
+    display: block
+}
+
+.slide1-text h2 {
+    font-size: 28px;
+}
+
+.slide1-text {
+    padding: 74px 0;
+}
+
+.title-gallery img:nth-child(2) {
+    position: relative;
+    right: 0;
+    top: 26px;
+}
+
+.title-gallery img:nth-child(3) {
+    position: relative;
+    left: 0;
+    top: 46px;
+}
+
+.service-bg {
+    margin-top: 450px;
+}
+
+.service-bg:before {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+.service-bg .col-md-6 {
+    margin-top: 436px;
+}
+
+.single-service:after {
+    width: 100%;
+}
+
+.single-service:hover:after {
+    width: 100%;
+    background: white;
+    content: none;
+}
+
+a.single-service:hover:after {
+    display: none;
+}
+
+.say-hello-text {
+    margin: 50px 0;
+}
+
+.buttonbox {
+    margin: 60px 0;
+    text-align: left;
+}
+
+.say-hello-text h1 {
+    font-size: 25px;
+}
+
+.padding-top-0 {
+    padding-top: 0;
+}
+
+.footer-area p {
+    margin-bottom: 40px;
+}
+
+.footer-menu {
+    margin-bottom: 40px;
+}
+
+.slicknav_menu {
+    padding: 0;
+    margin: 0;
+    background: inherit;
+}
+
+a.slicknav_btn.slicknav_collapsed {
+    padding: 0;
+    margin: 0;
+    background: inherit;
+}
+
+.slicknav_btn .slicknav_menutxt {
+    display: none;
+}
+
+.slicknav_menu .slicknav_icon {
+    margin: 0;
+    padding: 0;
+    margin-top: 21px;
+    margin-right: 31px;
+}
+
+a.slicknav_btn.slicknav_open {
+    background: inherit;
+    margin-top: -6px;
+    margin-right: -5px;
+}
+
+ul.slicknav_nav {
+    width: 198px;
+    margin-left: -60px;
+    background: #055D60;
+}
+
+a.slicknav_item.slicknav_row {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.slicknav_nav .slicknav_row:hover {
+    background: black;
+    border-radius: 0;
+    /* padding: 10px 0px; */
+}
+
+.slicknav_nav a:hover {
+    background: black;
+    margin: 0;
+    border-radius: 0;
+}
+
+}
+
+
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
 
+.slicknav_menu .slicknav_icon {
+    margin-right: 213px;
 }
+
+ul.slicknav_nav {margin: 0 auto;}
+
+.title-gallery {
+    text-align: center;
+}
+
+.single-brand-item {
+    text-align: center;
+}
+
+.blog-bg {
+    background-size: cover;
+    background-position: center;
+}
+
+.single-blog {
+    text-align: center;
+}
+
+.single-blog-description {
+    text-align: center;
+}
+
+.about-img {
+    text-align: center;
+}
+
+.feature-text-about {
+    text-align: center;
+}
+
+}
+
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
- 
-    .main-menu{display: none}
-    .slicknav-menu{display: block}
-    
-    .slicknav_menu {}
 
-.slicknav-menu .slicknav_menu {
-    background: none;
 }
 
-.slicknav-menu .slicknav_nav {
-    background: #3A3A3A;
-    text-align: center;
-    width: 327px;
-    position: relative;
-    left: -5px;
-    top: -6px;
-}
-
-.slicknav-menu .slicknav_menu {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 0;
-}
-}
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
 
-    
+    .slicknav_menu .slicknav_icon {
+    margin-right: 136px;
+}
+
+.service-bg{
+    margin-top: 700px
+}
 }

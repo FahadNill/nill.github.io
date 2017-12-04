@@ -1686,4 +1686,6 @@ Contact
     margin-left: -20px;
 }
 
-.slicknav-menu{display: none}
+.slicknav-menu{
+    display: none;
+}

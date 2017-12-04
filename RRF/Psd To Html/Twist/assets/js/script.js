@@ -5,7 +5,19 @@ jQuery(document).ready(function($){
 		nav: true,
 		dots: true,
 		navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
-		autoplay: true,
+		autoplay: false,
+	    responsiveClass:true,
+	    responsive:{
+	        0:{
+	            items:1,
+	        },
+	        600:{
+	            items:1,
+	        },
+	        1000:{
+	            items:1,
+	        }
+	    }
 
 	});
     
@@ -27,24 +39,60 @@ jQuery(document).ready(function($){
 		loop: true,
 		nav: false,
 		dots: true,
-		autoplay: true,
-		margin: 30
+		autoplay: false,
+		margin: 30,
+	    responsiveClass:true,
+	    responsive:{
+	        0:{
+	            items:1,
+	        },
+	        600:{
+	            items:2,
+	        },
+	        1000:{
+	            items:3,
+	        }
+	    }
 	});
 	$(".team-members-list").owlCarousel({
 		items: 3,
 		loop: true,
 		nav: false,
 		dots: true,
-		autoplay: true,
-		margin: 30
+		autoplay: false,
+		margin: 30,
+	    responsiveClass:true,
+	    responsive:{
+	        0:{
+	            items:1,
+	        },
+	        600:{
+	            items:2,
+	        },
+	        1000:{
+	            items:3,
+	        }
+	    }
 	});
 	$(".brand-list").owlCarousel({
 		items: 5,
 		loop: true,
 		nav: false,
 		dots: false,
-		autoplay: true,
-		margin: 30
+		autoplay: false,
+		margin: 30,
+	    responsiveClass:true,
+	    responsive:{
+	        0:{
+	            items:2,
+	        },
+	        600:{
+	            items:2,
+	        },
+	        1000:{
+	            items:5,
+	        }
+	    }
 	});
 
 	$(".circle").circleProgress({
@@ -96,7 +144,9 @@ jQuery(document).ready(function($){
 	});
     
     
-    
+    $(".envato").magnificPopup({
+        type: 'image'
+    });
     
     
 });	
@@ -108,7 +158,8 @@ jQuery(window).load(function(){
 $(".totop").tottTop();
 
 $("ul#navigation").slicknav({
-        prependTo: ".slicknav-menu"
+        prependTo: ".slicknav-menu",
+        allowParentLinks: true
     });
 
 new WOW().init();
